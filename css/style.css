@@ -256,14 +256,22 @@ a:hover {
 
 
 @media only screen and (max-width: 800px) {
+  body {
+      margin: 0 1rem;
+  }
+
   .nav {
     visibility: hidden;
   }
 
   .content {
       margin: 0 auto;
-      padding: 1rem;
       width: 100%;
+  }
+
+  .spacer {
+    height: 75vh;
+    width: 100%;
   }
 
   .intro-section__body {
