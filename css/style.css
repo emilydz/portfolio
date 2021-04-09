@@ -255,9 +255,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 1150px) {
-  body {
-    background: blue;
-  }
   .nav {
     visibility: hidden;
   }
