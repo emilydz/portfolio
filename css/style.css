@@ -177,7 +177,7 @@ a:hover {
 .grid-container {
   display: grid;
   grid-gap: 14px;
-  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 40%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
 }
 
 .grid-item {
@@ -198,44 +198,6 @@ a:hover {
   padding: 1rem 0 2rem 0;
   text-align: right;
 }
-
-/* overlay */
-
-/* .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-  text-align: right;
-  padding: 5rem 2rem 0 2rem;
-
-
-}
-
-.grid-item:hover .overlay {
-  opacity: .95;
-}
-
-a, .grid-item {
-  padding: 0;
-}
-
-.text {
-  color: black;
-  font-size: 2rem;
-  font-family: var(--rail);
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-} */
 
 /* about */
 
@@ -290,4 +252,23 @@ a, .grid-item {
   letter-spacing: 1px;
   text-align: right;
   padding: 8rem 0;
+}
+
+@media only screen and (max-width: 1150px) {
+  body {
+    background: blue;
+  }
+  .nav {
+    visibility: hidden;
+  }
+
+  .content {
+      margin: 0 auto;
+      padding: 1rem;
+      width: 100%;
+  }
+
+  .intro-section__body {
+    padding: 0;
+  }
 }
