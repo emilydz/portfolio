@@ -54,9 +54,7 @@ img {
 }
 
 .nav__list {
-  /* position: -webkit-sticky; */
   position: relative;
-
   list-style: none;
   top: 77%;
   z-index: 1;
@@ -80,6 +78,7 @@ a {
 a:hover {
   color: var(--blue);
 }
+
 /* icons */
 
 
@@ -213,17 +212,17 @@ a:hover {
 }
 
 .about-section__card {
-    display: none;
+  display: none;
 }
 
 .card__icon-show {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .card__icon-hide {
-    font-size: 1.5rem;
-    text-align: right;
-    padding: 2rem;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 2rem;
 }
 
 .about-section__body {
@@ -257,7 +256,7 @@ a:hover {
 
 @media only screen and (max-width: 800px) {
   body {
-      margin: 0 1rem;
+      margin: 0 .2rem;
   }
 
   .nav {
