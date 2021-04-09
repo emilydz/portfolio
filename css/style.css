@@ -18,6 +18,7 @@ html {
     --blue: #3755bf;
     --lightgrey: #f5f5f5;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .font {
@@ -26,6 +27,7 @@ html {
 
 body {
     margin: 0 2rem;
+    overflow-x: hidden;
 
 }
 
@@ -275,9 +277,5 @@ a:hover {
 
   .intro-section__body {
     padding: 0;
-  }
-
-  .icon__item {
-    margin-right: .2rem;
   }
 }
