@@ -91,4 +91,12 @@ html {
     grid-column: 1;
   }
 
+ .work__header {
+    flex-direction: column;
+  }
+
+  .work__header-sub {
+    margin: 0;
+    text-align: left;
+  }
 }

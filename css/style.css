@@ -276,4 +276,8 @@ a:hover {
   .intro-section__body {
     padding: 0;
   }
+
+  .icon__item {
+    margin-right: .2rem;
+  }
 }
