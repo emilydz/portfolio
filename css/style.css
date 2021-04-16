@@ -278,4 +278,8 @@ a:hover {
   .intro-section__body {
     padding: 0;
   }
+
+  .script {
+    visibility: hidden;
+  }
 }
