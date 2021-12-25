@@ -86,6 +86,25 @@ html {
   font-family: var(--rail);
 }
 
+.icon__back {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .icon__back {
+    display: block;
+    position: fixed;
+    font-size: 2rem;
+    z-index: 1;
+    top: 4%;
+    left: 5%;
+  }
+
+  .icon__back a {
+      color: #888;
+  }
+}
+
 @media only screen and (max-width: 1150px) {
   .full {
     grid-column: 1;

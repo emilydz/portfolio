@@ -154,7 +154,7 @@ a:hover {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 300px;
+  width: 200px;
   background-color: black;
   color: #fff;
   padding: 1rem;
